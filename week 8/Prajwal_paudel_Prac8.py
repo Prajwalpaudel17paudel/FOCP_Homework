@@ -15,16 +15,16 @@ print(Area)
 # The area of a rectangle with a width of 104.32 and a height of 15.654 is 1633.025.
 
 #3
-name= "prasijosi"
+name= "prajwal"
 age=19
 print(f"{name:15} - {age:10}")
-# prasijosi       -         19
+# prajwal      -         19
 
 #4
-name = "Prashiddha Joshi"
+name = "Prajwal paudel"
 age = 19.7123
 print(f"{name:>20} {age:$>20.2f}")
-    # Prashiddha Joshi $$$$$$$$$$$$$$$19.71
+    # Prajwal paudel $$$$$$$$$$$$$$$19.71
 
 
 #5
@@ -36,11 +36,11 @@ print(area_of_circle)
 # Area of circle with a radius of 52 is 8494.87.
 
 #6
-name = "Prashiddha Joshi"
+name = "Prajwal paudel"
 age = 19
 string_formatting = "{name:@^15} {age:#^10}".format(name=name, age=age)
 print(string_formatting)
-# Prashiddha Joshi ####19####
+# Prajwal paudel ####19####
 
 #7
 with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
@@ -75,14 +75,14 @@ with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
 
 #10
 with open(r'C:\Users\ace\Desktop\info.txt', 'a') as file:
-    file.write("Prashiddha Joshi says hello....\n")
+    file.write("Prajwal paudel says hello....\n")
 age = 19
 with open(r'C:\Users\ace\Desktop\info.txt', 'a') as file:
     file.write(str(age) + "\n")
 # This is a text file
 # It contains multiple lines of text
 # This is the final line within the file
-# Prashiddha Joshi says hello....
+# Prajwal paudel says hello....
 # 19
 
 #11
@@ -92,7 +92,7 @@ with open(r'C:\Users\ace\Desktop\info.txt', 'r') as file:
 # This is a text file
 # It contains multiple lines of text
 # This is the final line within the file
-# Prashiddha Joshi says hello....
+# Prajwal paudel says hello....
 # 19
 
 #12
